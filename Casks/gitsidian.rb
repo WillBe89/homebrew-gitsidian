@@ -1,12 +1,12 @@
 cask "gitsidian" do
   arch arm: "-arm64", intel: ""
 
-  version "0.7.3"
+  version "0.7.4"
   on_arm do
-    sha256 "02350fa86cc1e171379fe2dd751c7beee2a988c6e23a77be7be75fd4c1735287"
+    sha256 "da8b3ac2355721fbdeb80ac6ea83415705cd537aa4406460142bd3b6c3ff8e0f"
   end
   on_intel do
-    sha256 "801650e67b5bbc18ecfd0ad06d49c9482999bb06b04c0d42a163c357428fbeb4"
+    sha256 "e72cea60a92b7909fd71059bce71a7b9ca43cfa3c357592141ef0bc4889a3ed7"
   end
 
   url "https://github.com/WillBe89/gitsidian/releases/download/v#{version}/Gitsidian-#{version}#{arch}.dmg"
