@@ -1,17 +1,17 @@
 cask "gitsidian" do
   arch arm: "-arm64", intel: ""
 
-  version "0.6.2"
+  version "0.7.0"
   on_arm do
-    sha256 "ce5e1e5bc4810d8c0cff7ecb36a45b28bbd350a50b6708ef2bab368fad2d7287"
+    sha256 "7c76cbe55bd4bdbf02ebe0d809a8aa2d9d3e611c2aafde23c3e47f818df3c527"
   end
   on_intel do
-    sha256 "ccc49e4a41d117a4248b4b1003fae8ac3eca94e2288f5d0de3e3b6fb704a5965"
+    sha256 "27ca73b19c100ad6d6ebfa897a4bc8d218be9f770e859a6914e1d8b9bbb20cff"
   end
 
   url "https://github.com/WillBe89/gitsidian/releases/download/v#{version}/Gitsidian-#{version}#{arch}.dmg"
   name "Gitsidian"
-  desc "Friendly multi-tab cockpit for running AI coding assistants in your repos"
+  desc "Calm home for your repos, terminals, notes, and team"
   homepage "https://github.com/WillBe89/gitsidian"
 
   app "Gitsidian.app"
